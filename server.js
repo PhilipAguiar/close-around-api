@@ -13,7 +13,8 @@ app.use(cors());
 // Routes
 const ticketmasterRoute = require('./routes/ticketmaster');
 app.use('/ticketmaster', ticketmasterRoute);
-
+const eventRoute = require('./routes/events');
+app.use('/events', eventRoute);
 
 // Listen
 app.listen(PORT, () => console.log(`server is running on port ${PORT}`))

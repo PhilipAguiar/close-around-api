@@ -12,7 +12,6 @@ router.get('/', (req, res) => {
   let lng = req.query.lng
   console.log(lat)
    axios.get(`${BASE_URL}discovery/v2/suggest?latlong=${lat},${lng}&apikey=${API_KEY}&size=5&radius=100`).then((axiosRes)=>{
-    console.log(axiosRes.data._embedded.venues)
     res.status(200).json(axiosRes.data._embedded.venues)
   })
 });
@@ -25,7 +24,7 @@ router.get('/:id', (req, res) => {
   // axios.get(`${BASE_URL}discovery/v2/events.json?latlong=${43.653225},${-79.3831861}&apikey=${API_KEY}`).then((axiosRes)=>{
     
    axios.get(`${BASE_URL}discovery/v2/events.json?size=5&apikey=${API_KEY}&venueId=${req.params.id}`).then((axiosRes)=>{
-    
+    console.log("help")
     res.status(200).json(axiosRes.data)
   })
 });
