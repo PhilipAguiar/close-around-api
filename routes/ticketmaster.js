@@ -18,11 +18,14 @@ router.get('/', (req, res) => {
 
 
 router.get('/:id', (req, res) => {
-    
-   axios.get(`${BASE_URL}discovery/v2/events.json?size=5&apikey=${API_KEY}&venueId=${req.params.id}`).then((axiosRes)=>{
-    console.log("help")
-    res.status(200).json(axiosRes.data)
-  })
+    try{axios.get(`${BASE_URL}discovery/v2/events.json?size=5&apikey=${API_KEY}&venueId=${req.params.id}`).then((axiosRes)=>{
+      console.log("help")
+      res.status(200).json(axiosRes.data)
+    })}
+   catch{
+     console.log("error")
+     res.status(500).json("error receiving ticketmaster data")
+   }
 });
 
 module.exports = router;
