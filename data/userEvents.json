@@ -28,15 +28,23 @@
         "userAvatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
       },
       {
-        "name": "Philip Aguiar",
-        "id": "rtJLoptp2kfIP9owyDhVBlbBzD83",
-        "userAvatar": "https://graph.facebook.com/10224445961270072/picture?height=500&access_token=EAAWfSCoZCB4gBAGVzRzentjCoqfDowZBnCrXTvixQ8o29CYTHeVOffNGg9CZCyGYq6l4fnZA84DLjLrAdEFZAgS0RA6GBkgp2bm4V3z5vyQ0Ez5ZBSXXfmdTCokkejR0VyNWUCZCzv1z6mjXCV277DxloJvAFyJoJYmZA1hfsRyQQJzyzcaX8SWnvsrqZBmZBKEKBLU0fWsk7PNgMC0o11id07tgT2WZAkf4WCasQ1pii0LZBQZDZD"
-      },
-      {
         "name": "Ted Mabaso",
         "id": "rtJLoptp2kfIP9owyDhVBlbBzD83",
         "userAvatar": "https://images.unsplash.com/photo-1590038767624-dac5740a997b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
       }
     ]
+  },
+  {
+    "id": "633452fa-8fa7-4682-865f-1b0e2c84c14e",
+    "lat": 43.51893627150047,
+    "lng": -79.60878237519017,
+    "icon": "http://localhost:3000/static/media/basketball.c4e8c1e43efd80ed3795171482f61029.svg",
+    "eventName": "Pickup Basketball!",
+    "eventDescription": "Looking for a group of people to play 3v3 basketball this weekend!",
+    "eventDate": "2022-04-09",
+    "eventLocation": "Creekside Park",
+    "userSubmitted": null,
+    "userAvatar": "http://localhost:8080/images/default-user.svg",
+    "eventSize": 20
   }
 ]
