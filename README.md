@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -78,3 +79,7 @@ PhilipAguiar@gmail.com
 ## Acknowledgments
 
 This Project would not be possible without the great eduction team at [BrainStation](https://brainstation.io/)
+=======
+# close-around-api
+# close-around-api
+>>>>>>> 7e8dae38e76ffb3e6e2961225bcd53819d68dae6
