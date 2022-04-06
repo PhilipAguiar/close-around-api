@@ -27,13 +27,14 @@ router.post("/", (req, res) => {
     eventName: req.body.eventName,
     eventDescription: req.body.eventDescription,
     eventDate: req.body.eventDate,
+    eventLocation:req.body.eventLocation,
     userSubmitted: req.body.userSubmitted,
     userAvatar:req.body.userAvatar,
     eventSize: req.body.eventSize,
     usersInterested: req.body.usersInterested
   });
 
-console.log(req.body.usersInterested)
+
   saveEvents(events);
   res.status(200).json(events);
 });
@@ -55,6 +56,7 @@ router.post("/:id/edit", (req, res) => {
     eventName: req.body.eventName,
     eventDescription: req.body.eventDescription,
     eventDate: req.body.eventDate,
+    eventLocation:req.body.eventLocation,
     userSubmitted: req.body.userSubmitted,
     userAvatar:req.body.userAvatar,
     eventSize: req.body.eventSize,
