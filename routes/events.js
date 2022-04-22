@@ -70,7 +70,6 @@ router.post("/:id/edit", (req, res) => {
     return event;
   })
 
-console.log(editedEvents)
   saveEvents(editedEvents);
   res.status(200).json(editedEvents);
 });
