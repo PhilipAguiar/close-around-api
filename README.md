@@ -35,7 +35,7 @@ To get started with this application make sure you have both the front end (http
 
 2) Install additional package on api repository - npm install pm2
 
-3) Npm start on front end and pm2 start app.js when ready ro run application
+3) Npm start on front end and pm2 start server.js when ready ro run application
 
 ### Installation
 

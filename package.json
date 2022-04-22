@@ -7,7 +7,7 @@
     "uuidv4": "^6.2.13"
   },
   "scripts": {
-    "start": "npx nodemon server.js"
+    "start": "npx pm2 start server.js"
   },
   "name": "close-around-api",
   "version": "1.0.0",
